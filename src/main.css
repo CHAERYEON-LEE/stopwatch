@@ -1,0 +1,20 @@
+.wrap {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.watchBox {
+  width: 300px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+.watchBox__time {
+  display: inline-block;
+  color: red;
+}
