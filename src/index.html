@@ -1,19 +1,36 @@
 <!DOCTYPE html>
-<html lang="ko">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./main.css" />
-    <title>stopwatch</title>
-  </head>
-  <body>
-    <section class="click_button">
+
+<html lang="ko-KR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./main.css" />
+  <title>StopWatch</title>
+</head>
+
+<body>
+  <div class="wrap">
+    <h1>StopWatch</h1>
+    <div class="watchBox">
+      <p class="watchBox__time"><span id="hours">00</span>:<span id="min">00</span>:<span id="sec"></span>00:<span
+          id="ms">00</span></p>
+      <div class="watchBox__text">
+        <span class="text-hour">시</span>
+        <span class="text-min">분</span>
+        <span class="text-sec">초</span>
+        <span class="text-ms">밀리초</span>
+      </div>
+    </div>
+  </div>
+  <section class="click_button">
       <button type="button" class="btn_lap">lap</button>
       <button type="button" class="btn_reset">reset</button>
       <button type="button" class="btn_start">start</button>
     </section>
 
     <script src="./main.js"></script>
-  </body>
+</body>
+
 </html>

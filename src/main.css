@@ -1,3 +1,4 @@
+
 @charset "utf-8";
 
 .click_button{
@@ -11,4 +12,39 @@
     padding: 15px 30px;
     border-radius: 5px;
     border: 1px solid #666;
+}
+body {
+  background-color: skyblue;
+}
+.wrap {
+  text-align: center;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+.watchBox {
+  width: 300px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+.watchBox__time {
+  display: inline-block;
+  color: red;
+  font-size: 36px;
+}
+
+.watchBox__text {
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.watchBox__text span {
+  /* margin: 5px; */
 }
