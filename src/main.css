@@ -1,6 +1,10 @@
+body {
+  background-color: skyblue;
+}
 .wrap {
   text-align: center;
   display: flex;
+  flex-flow: column wrap;
   justify-content: center;
   align-items: center;
 }
@@ -17,4 +21,15 @@
 .watchBox__time {
   display: inline-block;
   color: red;
+  font-size: 36px;
+}
+
+.watchBox__text {
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.watchBox__text span {
+  /* margin: 5px; */
 }
